@@ -1,8 +1,11 @@
 package main
 
 import (
-	"Compiler/PetSound"
 	"fmt"
+
+	"github.com/amanvatsdev/EasyAccess/PetSound"
+	Coffeecorner "github.com/amanvatsdev/Practice/CoffeeCorner"
+	Teacorner "github.com/amanvatsdev/Practice/TeaCorner"
 )
 
 type PetInfo struct {
@@ -24,4 +27,10 @@ func main() {
 	fmt.Println(PetInfo2)
 	PetSound.CheckPet(PetInfo1.Category)
 	PetSound.CheckPet(PetInfo2.Category)
+
+
+	fmt.Println("-------------This is the corner for Pet Animals-------")
+	Teacorner.PrintTea()
+	Coffeecorner.PrintCoffee()
+
 }

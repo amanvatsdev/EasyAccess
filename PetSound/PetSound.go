@@ -1,8 +1,8 @@
 package PetSound
 
 import (
-	Cat "Compiler/PetSound/CatSound"
-	Dog "Compiler/PetSound/DogBark"
+	Cat "github.com/amanvatsdev/EasyAccess/PetSound/CatSound"
+	Dog "github.com/amanvatsdev/EasyAccess/PetSound/DogBark"
 )
 
 func CheckPet(X string) {
